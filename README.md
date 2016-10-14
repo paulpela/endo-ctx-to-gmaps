@@ -12,6 +12,14 @@ For more info on Google Maps Heatmap Layer feature go to: https://developers.goo
 
 # Usage
 
+## Write to file:
+
 1. Put `convert.py` in any suitable location.
 2. Put all your CTX files to `./inputs` direcotry.
-2. Run `python convert.py > output.js`
+3. Run `python convert.py output.js`
+
+## Write to stdout:
+
+1. Put `convert.py` in any suitable location.
+2. Put all your CTX files to `./inputs` direcotry.
+2. Run `python convert.py`
